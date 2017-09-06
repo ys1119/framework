@@ -8,7 +8,9 @@
     ],
     "require": {
         "php": ">=5.6",
+        "monolog/monolog": "*",
         "illuminate/database": "*",
+        "nette/mail": "*",
         "predis/predis": "*",
         "twig/twig": "*",
         "ys/route": "dev-master"
