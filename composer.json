@@ -1,0 +1,21 @@
+{
+    "name": "ys/framework",
+    "authors": [
+        {
+            "name": "yangsheng",
+            "email": "365046822@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "illuminate/database": "*",
+        "predis/predis": "*",
+        "twig/twig": "*",
+        "ys/route": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "ys\\": "src/"
+        }
+    }
+}
